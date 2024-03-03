@@ -8,10 +8,9 @@
 
 /* CSS ID: #picture ~ this only applies to one element in the html code*/ 
 #picture {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+    width: 200px;
+    height: auto;
+    margin: 10px; 
 }
 
 #youtube {

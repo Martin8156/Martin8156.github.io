@@ -6,20 +6,28 @@
   box-sizing: border-box;
 }
 
-.smallerContainer {
-    width: 25%;
+.inlineContainer {
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+    display: inline;
   }
 
-/* CSS ID: #picture ~ this only applies to one element in the html code*/ 
 .picture {
     width: 200px;
     height: auto;
     margin: 10px; 
 }
 
+.profilePicture {
+    width: 200px;
+    height: auto;
+    margin: 10px; 
+    border-radius: 50%;
+}
+
+/* CSS ID: #tiktok ~ this only applies to one element in the html code*/ 
 #tiktok {
     color: blue;
 }

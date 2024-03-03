@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.smallerContainer {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
 /* CSS ID: #picture ~ this only applies to one element in the html code*/ 
 .picture {
     width: 200px;

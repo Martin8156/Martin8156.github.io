@@ -1,7 +1,22 @@
-/* CSS class: .container */
+/* CSS class: .container ~ can apply to multiple elements in the html code*/
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
+}
+
+/* CSS ID: #picture ~ this only applies to one element in the html code*/ 
+#picture {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#youtube {
+    color: blue;
+}
+#youtube:hover {
+    color: red;
 }

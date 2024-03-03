@@ -1,37 +1,46 @@
 /* CSS class: .container ~ can apply to multiple elements in the html code*/
-.container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-  white-space: nowrap;
-}
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        white-space: nowrap;
+    }
 
-.inlineContainer {
-    width: 45%;
-    margin: 0 auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-    display: inline-block;
-  }
+    .inlineContainer-picture {
+        width: 25%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+        text-align: center;
+    }
 
-.picture {
-    width: 200px;
-    height: auto;
-    margin: 10px; 
-}
+    .inlineContainer-text {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
 
-.profilePicture {
-    width: 200px;
-    height: auto;
-    margin: 10px; 
-    border-radius: 50%;
-}
+    .picture {
+        width: 200px;
+        height: auto;
+        margin: 10px; 
+    }
 
-/* CSS ID: #tiktok ~ this only applies to one element in the html code*/ 
-#tiktok {
-    color: blue;
-}
-#youtube:hover {
-    color: red;
-}
+    .profilePicture {
+        width: 200px;
+        height: auto;
+        margin: 10px; 
+        border-radius: 50%;
+    }
+
+    /* CSS ID: #tiktok ~ this only applies to one element in the html code*/ 
+    #tiktok {
+        color: blue;
+    }
+    #youtube:hover {
+        color: red;
+    }

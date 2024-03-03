@@ -7,13 +7,13 @@
 }
 
 /* CSS ID: #picture ~ this only applies to one element in the html code*/ 
-#picture {
+.picture {
     width: 200px;
     height: auto;
     margin: 10px; 
 }
 
-#youtube {
+#tiktok {
     color: blue;
 }
 #youtube:hover {
